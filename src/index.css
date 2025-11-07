@@ -11,12 +11,16 @@ header {
   text-align: center;
 }
 
-main {
-  .btn {
-    border: none;
+.container {
+  display: flex;
+  flex-direction: row;
+}
 
-    &:hover {
-      background-color: rgb(218, 203, 1) !important;
-    }
+.btn {
+  border: none;
+
+
+  &:hover {
+    background-color: rgb(218, 203, 1) !important;
   }
 }
