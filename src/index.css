@@ -11,7 +11,9 @@ header {
   text-align: center;
 }
 
-
+main {
+  color: black;
+}
 
 .btn {
   border: none;
