@@ -22,7 +22,7 @@ export default function Main({ languages }) {
             <div className="d-flex justify-content-center flex-wrap">
                 {languages.map((items) => (
                     <div key={items.id} >
-                        <button type="button" className="btn m-2" title={items.title} style={{ backgroundColor: items.id === active ? 'rgb(218, 203, 1)' : 'rgb(34, 82, 243)' }} onClick={() => handleClick(items)}>
+                        <button type="button" className="btn m-2" style={{ backgroundColor: items.id === active ? 'rgb(218, 203, 1)' : 'rgb(34, 82, 243)' }} onClick={() => handleClick(items)}>
                             {items.title}
                         </button>
                         {/* {items.id === active ? <Card title={items.title} description={items.description} /> : <p>Nessun linguaggio selezionato</p>} */}
